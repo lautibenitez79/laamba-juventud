@@ -173,6 +173,17 @@ const jugadoresIniciales: Jugador[] = [
   },
   {
     id: 13,
+    nombre: "LIAM DE LOS RIOS",
+    dni: "44.354.496",
+    club: "Asociacion Juventud",
+    disciplina: "MASCULINO",
+    zona: "M - ELITE II",
+    division: "1RA",
+    estado: "VALIDADO",
+    foto: liam,
+  },
+  {
+    id: 14,
     nombre: "LAUTARO NAHUEL BENITEZ",
     dni: "41.151.926",
     club: "Asociacion Juventud",
@@ -183,7 +194,7 @@ const jugadoresIniciales: Jugador[] = [
     foto: lauti,
   },
   {
-    id: 14,
+    id: 15,
     nombre: "LAUTARO MATEO CORIA",
     dni: "46.291.998",
     club: "Asociacion Juventud",
@@ -194,7 +205,7 @@ const jugadoresIniciales: Jugador[] = [
     foto: coria,
   },
   {
-    id: 15,
+    id: 16,
     nombre: "AGUSTN LUCAS",
     dni: "42.996.879",
     club: "Asociacion Juventud",
@@ -205,7 +216,7 @@ const jugadoresIniciales: Jugador[] = [
     foto: chucky,
   },
   {
-    id: 16,
+    id: 17,
     nombre: "FRANCO CAMEAN",
     dni: "46.878.191",
     club: "Asociacion Juventud",
@@ -216,7 +227,7 @@ const jugadoresIniciales: Jugador[] = [
     foto: camean,
   },
   {
-    id: 17,
+    id: 18,
     nombre: "SANTIAGO EZEQUIEL CABANAS",
     dni: "43.170.097",
     club: "Asociacion Juventud",
@@ -227,7 +238,7 @@ const jugadoresIniciales: Jugador[] = [
     foto: caba,
   },
   {
-    id: 18,
+    id: 19,
     nombre: "JUAN IGNACIO FONTAN",
     dni: "46.501.213",
     club: "Asociacion Juventud",
@@ -238,7 +249,7 @@ const jugadoresIniciales: Jugador[] = [
     foto: juani,
   },
   {
-    id: 19,
+    id: 20,
     nombre: "THIAGO RAMIRO BUCCHERI",
     dni: "46.359.681",
     club: "Asociacion Juventud",
