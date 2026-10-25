@@ -219,7 +219,7 @@ body {
 }
 
 .imgCarnet {
-    max-height: 160px !important;
+    max-height: 120px !important;
     width: 120px !important;
     padding: 1px !important;
     border: 1px solid #E4CA88 !important;
@@ -334,4 +334,32 @@ body {
   z-index: 20 !important;
   border-radius: 100px !important;
   object-fit: cover;
+}
+
+/* --- GRADIENTES DINÁMICOS SEGÚN ESTADO --- */
+.card-credencial-bg.card-pendiente {
+  background: linear-gradient(135deg, #f6d365 0%, #fda085 100%) !important;
+}
+
+.card-credencial-bg.card-inhabilitado {
+  background: linear-gradient(135deg, #3f0c0c 0%, #c81b1b 100%) !important;
+  box-shadow: 1px 1px 15px #d71919d6;
+}
+
+.bg-label-danger {
+    background-color: #ffe3e2 !important;
+    color: #ff4d49 !important;
+    font-size: 10px !important;
+    padding: 2px 7px;
+    border-radius: 5rem;
+    text-transform: uppercase;
+}
+
+.bg-label-warning {
+  background-color: #fff3dd !important;
+    color: #fdb528 !important;
+    font-size: 10px !important;
+    padding: 2px 7px;
+    border-radius: 5rem;
+    text-transform: uppercase;
 }
