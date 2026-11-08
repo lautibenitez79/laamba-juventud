@@ -20,7 +20,7 @@ import lauti from "./assets/1ra/lauti.jpg";
 import coria from "./assets/1ra/coria.jpg";
 import chucky from "./assets/1ra/chucky.jpg";
 import camean from "./assets/1ra/camean.jpg";
-import caba from "./assets/1ra/caba.jpg";
+import fedeaguilar from "./assets/1ra/fede-aguilar.jpeg";
 import juani from "./assets/1ra/juani.jpg";
 import pelusa from "./assets/1ra/pelusa.jpg";
 import gabriel from "./assets/5ta/gabriel.jpg";
@@ -37,6 +37,16 @@ import fran from "./assets/5ta/francisco.jpg";
 import juan from "./assets/5ta/juan.jpg";
 import gonza from "./assets/5ta/gonza.jpg";
 import aaron from "./assets/5ta/aaron.jpg";
+import felipe from "./assets/3ra/felipe.jpg"
+import diego from "./assets/3ra/idego.jpg"
+import joaco from "./assets/3ra/joasco.jpg"
+import kaleb from "./assets/3ra/kaleb.jpg"
+import lauti3ra from "./assets/3ra/laut.jpg"
+import mejo from "./assets/3ra/mejo.jpg"
+import tato3ra from "./assets/3ra/tato.jpg"
+import tempo from "./assets/3ra/tempo.jpg"
+import valentin from "./assets/3ra/valentin.jpeg"
+import jere from "./assets/3ra/jere.jpeg"
 
 import alejo1 from "./assets/autoridades/alejo.jpg";
 import balti from "./assets/autoridades/balti.jpg";
@@ -47,7 +57,7 @@ import stella from "./assets/autoridades/stella.jpg";
 import alejo2 from "./assets/autoridades/alejo3.jpg";
 import neno from "./assets/autoridades/neno.jpg";
 
-type Division = "1RA" | "5TA";
+type Division = "1RA" | "3RA" | "5TA";
 
 type Jugador = {
   id: number;
@@ -268,7 +278,7 @@ const jugadoresIniciales: Jugador[] = [
     zona: "M - ELITE II",
     division: "1RA",
     estado: "VALIDADO",
-    foto: caba,
+    foto: fedeaguilar,
   },
   {
     id: 19,
@@ -446,6 +456,118 @@ const jugadoresIniciales: Jugador[] = [
     estado: "VALIDADO",
     foto: aaron,
   },
+  
+  {
+    id: 35,
+    nombre: "LAUTARO GRANDJEAN",
+    dni: "46.917.143",
+    club: "Asociacion Juventud",
+    disciplina: "MASCULINO",
+    zona: "M - ELITE II",
+    division: "3RA",
+    estado: "VALIDADO",
+    foto: lauti3ra,
+  },
+  {
+    id: 36,
+    nombre: "JOAQUIN EMANUEL COGGIOLA",
+    dni: "47.791.936",
+    club: "Asociacion Juventud",
+    disciplina: "MASCULINO",
+    zona: "M - ELITE II",
+    division: "3RA",
+    estado: "VALIDADO",
+    foto: joaco,
+  },
+  {
+    id: 37,
+    nombre: "VALENTIN ARIAN GONZALEZ",
+    dni: "47.299.106",
+    club: "Asociacion Juventud",
+    disciplina: "MASCULINO",
+    zona: "M - ELITE II",
+    division: "3RA",
+    estado: "VALIDADO",
+    foto: valentin,
+  },
+  {
+    id: 38,
+    nombre: "MATEO TEMPONE",
+    dni: "47.880.271",
+    club: "Asociacion Juventud",
+    disciplina: "MASCULINO",
+    zona: "M - ELITE II",
+    division: "3RA",
+    estado: "VALIDADO",
+    foto: tempo,
+  },
+  {
+    id: 39,
+    nombre: "FELIPE ROMÁN PINTO",
+    dni: "47.344.173",
+    club: "Asociacion Juventud",
+    disciplina: "MASCULINO",
+    zona: "M - ELITE II",
+    division: "3RA",
+    estado: "VALIDADO",
+    foto: felipe,
+  },
+  {
+    id: 40,
+    nombre: "DIEGO HERNAN CRAVERO",
+    dni: "48.313.266",
+    club: "Asociacion Juventud",
+    disciplina: "MASCULINO",
+    zona: "M - ELITE II",
+    division: "3RA",
+    estado: "VALIDADO",
+    foto: diego,
+  },
+  {
+    id: 41,
+    nombre: "ELIAS CALEB CUELLO SAA",
+    dni: "47.800.285",
+    club: "Asociacion Juventud",
+    disciplina: "MASCULINO",
+    zona: "M - ELITE II",
+    division: "3RA",
+    estado: "VALIDADO",
+    foto: kaleb,
+  },
+  {
+    id: 42,
+    nombre: "TOMÁS BERMEJO",
+    dni: "47.004.115",
+    club: "Asociacion Juventud",
+    disciplina: "MASCULINO",
+    zona: "M - ELITE II",
+    division: "3RA",
+    estado: "VALIDADO",
+    foto: mejo,
+  },
+  {
+    id: 43,
+    nombre: "BAUTISTA NAHUEL SIRI",
+    dni: "47.203.210",
+    club: "Asociacion Juventud",
+    disciplina: "MASCULINO",
+    zona: "M - ELITE II",
+    division: "3RA",
+    estado: "VALIDADO",
+    foto: jere,
+  },
+  {
+    id: 44,
+    nombre: "SANTINO MASTROBERTI",
+    dni: "47.860.595",
+    club: "Asociacion Juventud",
+    disciplina: "MASCULINO",
+    zona: "M - ELITE II",
+    division: "3RA",
+    estado: "VALIDADO",
+    foto: tato3ra,
+  },
+
 ];
 
 const autoridadesIniciales: Autoridad[] = [
@@ -615,7 +737,9 @@ export default function App() {
                 onChange={(e) => setDivision(e.target.value as Division)}
               >
                 <option value="1RA">1RA</option>
+                <option value="3RA">3RA</option>
                 <option value="5TA">5TA</option>
+                
               </select>
               <span className="btn-x">×</span>
               <span className="select-arrow">▼</span>
